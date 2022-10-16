@@ -1,0 +1,1005 @@
+@font-face {
+    font-family: BancoDoBrasilTitulos-Regular;
+    src: url('../fonts/BancoDoBrasilTitulos-Regular.woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'BancoDoBrasilTitulos-Regular';
+}
+
+.body-content {
+    background-color: #f4f4f6;
+}
+
+.navbar .menu-navbar {
+    background-color: #fcfc30;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    z-index: 2;
+}
+
+.menu-navbar img {
+    width: 28px;
+    height: 24px;
+    position: relative;
+    margin: 1rem;
+}
+
+.menu-navbar a {
+    text-decoration: none;
+}
+
+xx {
+    width: 1px;
+    height: 40px;
+    background-color: #11121440;
+    margin-top: 0.5rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+li {
+    font-family: "Inter", sans-serif;
+    color: #465eff;
+    margin: 1rem;
+    position: relative;
+    top: 0.3rem;
+}
+
+.conta {
+    position: relative;
+    font-weight: 500;
+    left: 30rem;
+}
+
+.banner_back img {
+    width: 100%;
+}
+
+.banner_back a {
+    text-decoration: none;
+}
+
+.button_banner_back {
+    display: flex;
+    position: relative;
+    bottom: 9rem;
+    color: #465eff;
+    font-size: 22px;
+    font-family: system-ui;
+    font-weight: 500;
+    background-color: #fdf429;
+    width: 16%;
+    height: 8%;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    margin: 0 10rem;
+    justify-content: center;
+}
+
+.button_banner_back:hover {
+    cursor: pointer;
+    background-color: #e0d721;
+}
+
+.vem-ser h1 {
+    font-family: 'BancoDoBrasilTitulos-Regular';
+    font-weight: 400;
+    font-size: 3rem;
+    width: 50%;
+    bottom: 10rem;
+    left: 5rem;
+    color: #465eff;
+    margin-left: 12%;
+}
+
+hr {
+    border: 1px solid #465eff;
+    margin-bottom: 2rem;
+    width: 11%;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+
+.beneficios-abertura {
+    display: flex;
+    position: relative;
+    margin-left: 16%;
+}
+
+.container-box-1 {
+    position: relative;
+    left: 3.5rem;
+    top: 2rem;
+}
+
+.container-box-1 p {
+    width: 50%;
+    font-family: "Inter", sans-serif;
+    color: #767a86;
+}
+
+.container-box-2 p {
+    font-family: "Inter", sans-serif;
+    color: #767a86;
+}
+
+.container-box-3 p {
+    font-family: "Inter", sans-serif;
+    color: #767a86;
+}
+
+.container-box-4 p {
+    font-family: "Inter", sans-serif;
+    color: #767a86;
+}
+
+.container-box-1 h1 {
+    font-family: "Inter", sans-serif;
+    color: #465eff;
+    font-weight: 600;
+}
+
+.container-box-2 h1 {
+    font-family: "Inter", sans-serif;
+    color: #465eff;
+    font-weight: 600;
+}
+
+.container-box-3 h1 {
+    font-family: "Inter", sans-serif;
+    color: #465eff;
+    font-weight: 600;
+}
+
+.container-box-4 h1 {
+    font-family: "Inter", sans-serif;
+    color: #465eff;
+    font-weight: 600;
+}
+
+.abertura-container h1 {
+    font-family: "Inter", sans-serif;
+    color: #465eff;
+    font-weight: 500;
+}
+
+.abertura-container p {
+    font-family: "Inter", sans-serif;
+    color: #767a86;
+    width: 45%;
+    position: relative;
+    top: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 3%;
+}
+
+.container-box-3 {
+    position: relative;
+    top: 2rem;
+    left: 2.5rem;
+}
+
+.container-box-4 {
+    position: relative;
+    right: 1rem;
+}
+
+.container-box-3 p {
+    width: 50%;
+}
+
+.abertura-wrap img {
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+    height: 90%;
+}
+
+.abertura-wrap-1 img {
+    width: 30%;
+    position: relative;
+    left: 3rem;
+}
+
+.abertura-wrap-2 {
+    position: relative;
+    left: 2.5rem;
+    top: 1.5rem;
+    width: 25%;
+    margin-left: 15%;
+}
+
+.abertura-wrap-2 img {
+    width: 80%;
+}
+
+.abertura-wrap-3 img {
+    width: 70%;
+}
+
+.servicos-wrap {
+    display: flex;
+    position: relative;
+}
+
+.segurança-wrap {
+    display: flex;
+    position: relative;
+    top: 2rem;
+}
+
+.conveniencia-wrap {
+    display: flex;
+    position: relative;
+    top: 3.5rem;
+}
+
+.wrap-container-1 {
+    width: 50%;
+}
+
+.container-box-2 {
+    position: relative;
+    right: 22%;
+}
+
+.container-box-4 p {
+    width: 50%;
+}
+
+.wrap-box {
+    display: grid;
+    position: relative;
+    top: 7rem;
+}
+
+.wrap-box .wrap-box-column1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+@media screen and (max-width: 1920px) {
+    .wrap-box .wrap-box-column2 {
+        display: grid;
+        grid-template-columns: 215px 215px 215px;
+        position: relative;
+        margin-left: 5rem;
+    }
+    .image-wrap-1 img {
+        border-radius: 10px;
+        width: 116%;
+        height: 213%;
+    }
+    .image-wrap-1 {
+        width: 116%;
+        height: 30%;
+        position: relative;
+        left: 10rem;
+        top: 1rem;
+        margin: 4rem;
+    }
+    .image-wrap-2 img {
+        border-radius: 10px;
+        width: 100%;
+    }
+    .image-wrap-2 {
+        width: 40.5%;
+        height: 40%;
+        position: relative;
+        left: 25rem;
+        margin: 5rem;
+    }
+    .image-wrap-3 img {
+        border-radius: 10px;
+        width: 100%;
+    }
+    .image-wrap-3 {
+        width: 205%;
+        position: relative;
+        left: 5rem;
+        bottom: 11rem;
+        margin: 4rem;
+    }
+    .image-wrap-4 img {
+        border-radius: 10px;
+        width: 100%;
+    }
+    .image-wrap-4 {
+        width: 180%;
+        height: 40%;
+        position: relative;
+        bottom: 11rem;
+        left: 21rem;
+        margin: 4rem;
+    }
+    .image-wrap-5 img {
+        border-radius: 10px;
+        width: 132%;
+        height: 121%;
+    }
+    .image-wrap-5 {
+        width: 180%;
+        position: relative;
+        left: 34rem;
+        margin: 4rem;
+        bottom: 11rem;
+    }
+    .outer-wrap {
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .wrap-box .wrap-box-column2 {
+        display: grid;
+        grid-template-columns: 215px 215px 215px;
+        position: relative;
+        bottom: 5rem;
+    }
+    .image-wrap-1 img {
+        border-radius: 10px;
+        width: 132%;
+        height: 171%;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .image-wrap-1 {
+        width: 118%;
+        height: 30%;
+        position: relative;
+        left: 4rem;
+        top: 1rem;
+        margin: 4rem;
+    }
+    .image-wrap-2 img {
+        border-radius: 10px;
+        width: 95%;
+        height: 128%;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .image-wrap-2 {
+        width: 42.5%;
+        position: relative;
+        left: 20rem;
+        margin: 5rem;
+    }
+    .image-wrap-3 img {
+        border-radius: 10px;
+        width: 75%;
+        height: 52%;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .image-wrap-3 {
+        border-radius: 10px;
+        top: -2rem;
+        margin: -2rem;
+    }
+    .image-wrap-4 img {
+        border-radius: 10px;
+        height: 130%;
+        width: 88%;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .image-wrap-4 {
+        position: relative;
+        left: 8rem;
+        top: -8rem;
+        margin: 4rem;
+    }
+    .wrap-- img {
+        border-radius: 10px;
+        width: 130%;
+        height: 105%;
+        position: relative;
+        left: 5rem;
+    }
+    .image-wrap-5 {
+        width: 129%;
+        position: relative;
+        left: 12.3rem;
+        margin: 4rem;
+        top: -8rem;
+    }
+    .outer-wrap {
+        height: 50%;
+    }
+    .box-wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 6rem;
+        margin-left: 10%;
+        margin-bottom: -2%;
+    }
+    .box-wrap p {
+        font-family: "Inter", sans-serif;
+        color: #767a86;
+    }
+    .wrap-container-2 {
+        display: flex;
+        margin: 4rem;
+        position: relative;
+        left: 1rem;
+        gap: 1rem;
+    }
+    .box-bloco2 img {
+        position: relative;
+        width: 100%;
+        height: 60%;
+        border-radius: 10px;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .box-bloco2 {
+        position: relative;
+        right: 2rem;
+        overflow: hidden;
+    }
+    .box-bloco2:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .facilidade-wrap {
+        display: flex;
+        margin: 4rem;
+        left: 0.5rem;
+        position: relative;
+        bottom: 3rem;
+    }
+    .boxes {
+        background-color: #ffffff;
+        width: 20%;
+        height: 20%;
+        margin: 0.5rem;
+        border-radius: 5px;
+    }
+    .boxe-1 {
+        background-color: #ffffff;
+        width: 20%;
+        height: 20%;
+        margin: 0.5rem;
+        border-radius: 5px;
+    }
+    .boxe-6 {
+        background-color: #ffffff;
+        width: 20%;
+        height: 20%;
+        margin: 0.5rem;
+        border-radius: 5px;
+    }
+}
+
+.wrap-momentos {
+    position: relative;
+    padding-left: 8rem;
+    margin-top: -15%;
+}
+
+.wrap-momentos h1 {
+    font-weight: 100;
+    font-family: 'BancoDoBrasilTitulos-Regular';
+    color: #404448;
+}
+
+.wrap-momentos p {
+    position: relative;
+    top: 1rem;
+    font-family: 'BancoDoBrasilTitulos-Regular';
+    color: #767a86;
+    font-size: 22px;
+}
+
+.box-bloco1 {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.box-bloco1 img {
+    border-radius: 22px;
+    right: 2rem;
+    position: relative;
+    height: 82%;
+    width: 98%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.box-bloco1:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.box-bloco3 {
+    border-radius: 10px;
+    position: relative;
+    right: 2rem;
+    overflow: hidden;
+}
+
+.box-bloco3 img {
+    height: 82%;
+    width: 100%;
+    border-radius: 10px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.box-bloco3:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.seguro-veiculo {
+    background-color: #767a86;
+    width: 100%;
+    height: 20%;
+    position: relative;
+    bottom: 0.5rem;
+    border-radius: 8px;
+    color: white;
+    bottom: 6rem;
+    margin-top: 9%;
+}
+
+.linha-wrap {
+    border: 1px solid #767a86;
+    border-radius: 5px;
+    top: 1rem;
+    position: relative;
+    width: 130%;
+    right: 1rem;
+}
+
+.container-finance {
+    position: relative;
+    bottom: 9rem;
+    width: 56%;
+    margin: 0.5rem;
+    left: 2rem;
+}
+
+.container-finance h3 {
+    font-family: 'BancoDoBrasilTitulos-Regular';
+}
+
+.container-finance p {
+    font-family: 'BancoDoBrasilTitulos-Regular';
+    font-size: 1.2rem;
+}
+
+.container-finance a {
+    text-decoration: none;
+    color: #465eff;
+    font-size: 20px;
+}
+
+.container-organizacao {
+    position: relative;
+    margin: 1rem;
+    position: relative;
+    bottom: 8rem;
+}
+
+.container-organizacao h3 {
+    font-family: 'BancoDoBrasilTitulos-Regular';
+}
+
+.container-seguro {
+    position: relative;
+    top: 1rem;
+    margin: 0.5rem;
+}
+
+.container-seguro h3 {
+    font-family: 'BancoDoBrasilTitulos-Regular';
+    margin-bottom: 3%;
+}
+
+.container-investimento {
+    position: relative;
+    bottom: 9rem;
+    margin: 0.5rem;
+    margin-left: 2rem;
+}
+
+.container-investimento h3 {
+    font-family: 'BancoDoBrasilTitulos-Regular';
+}
+
+.container-investimento p {
+    width: 66%;
+}
+
+.container-investimento a {
+    text-decoration: none;
+    color: #465eff;
+    font-size: 20px;
+}
+
+.boxes img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxes p {
+    font-family: 'BancoDoBrasilTitulos-Regular';
+    color: #465eff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.boxe-1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 88px;
+}
+
+.boxe-1 p {
+    font-family: 'BancoDoBrasilTitulos-Regular';
+    color: #465eff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.boxe-6 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 88px;
+}
+
+.boxe-6 p {
+    font-family: 'BancoDoBrasilTitulos-Regular';
+    color: #465eff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.facilidades h1 {
+    font-family: 'BancoDoBrasilTitulos-Regular';
+    color: #465eff;
+    font-weight: 600;
+    margin: 3rem;
+    position: relative;
+    left: 2rem;
+    margin-top: -9rem;
+}
+
+.anuncio {
+    padding: 2rem;
+    position: relative;
+    bottom: 4rem;
+}
+
+.anuncio img {
+    border-radius: 10px;
+    width: 84%;
+    position: relative;
+    left: 6.5rem;
+}
+
+.footer {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.column1-footer {
+    display: flex;
+    background: rgba(255, 255, 255, 0.7);
+    width: 60%;
+}
+
+.column1-footer a {
+    text-decoration: none;
+    margin: 2rem;
+    color: #465eff;
+}
+
+.column1-footer .titulo {
+    margin-top: 5%;
+}
+
+.column2-footer {
+    display: flex;
+    background: rgba(255, 255, 255, 0.7);
+    width: 70%;
+}
+
+.column1-footer p {
+    font-family: "Inter", sans-serif;
+    margin: 2rem;
+    color: #465eff;
+    margin-top: 4px;
+}
+
+.column2-footer p {
+    font-family: "Inter", sans-serif;
+    color: #465eff;
+    margin: 2rem;
+    margin-top: 4px;
+}
+
+.column2-footer a {
+    text-decoration: none;
+    margin: 2rem;
+    color: #465eff;
+}
+
+.column2-footer .ms {
+    margin-left: 3%;
+}
+
+.column2-footer .ms-2 {
+    margin-left: 1%;
+}
+
+.column3-footer-p {
+    color: #000000;
+    width: 38%;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+
+.column3-footer {
+    background-color: #fcfc30;
+    height: 16%;
+}
+
+.acesso {
+    display: block;
+    float: right;
+    margin-right: 3rem;
+    margin-top: -6%;
+}
+
+.atalhos {
+    display: flex;
+    margin: 2rem;
+    padding-left: 33rem;
+    position: relative;
+    bottom: 2rem;
+}
+
+.atalhos p {
+    color: #000000;
+    margin: 1rem;
+    font-weight: 100;
+}
+
+.emprestimo {
+    background: #ffffff;
+    position: relative;
+    border-radius: 5px;
+    width: 154%;
+    left: 3rem;
+    height: 32%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.emprestimo h1 {
+    font-family: "Inter", sans-serif;
+    color: #465eff;
+    font-size: 1.37rem;
+}
+
+.emprestimo p {
+    font-family: "Inter", sans-serif;
+    color: #767a86;
+}
+
+.emprestimo button {
+    background-color: #465eff;
+    color: #fcfc30;
+    border: none;
+    padding: 1rem;
+    position: relative;
+    font-weight: 800;
+    top: 1rem;
+    border-radius: 5px;
+}
+
+.conta-corrente {
+    position: relative;
+    left: 8rem;
+    bottom: 7rem;
+    border-radius: 5px;
+    padding-left: 3rem;
+}
+
+.cartao-credito {
+    position: relative;
+}
+
+.cartao-wrap {
+    width: 26%;
+    position: relative;
+    left: 26rem;
+    bottom: 12rem;
+}
+
+.cartao-wrap h1 {
+    font-family: "Inter", sans-serif;
+    color: #465eff;
+    position: relative;
+    font-weight: 700;
+    bottom: 3rem;
+}
+
+.cartao-wrap p {
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    position: relative;
+    width: 60%;
+    bottom: 2rem;
+}
+
+.cartao-wrap .link-adquira {
+    font-family: "Inter", sans-serif;
+    color: #465eff;
+    font-weight: 600;
+    position: relative;
+    top: 0.1rem;
+}
+
+.investimento {
+    background: #ffffff;
+    position: relative;
+    border-radius: 5px;
+    width: 157%;
+    left: 12rem;
+    height: 33%;
+    bottom: 8.6rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.investimento h1 {
+    font-family: "Inter", sans-serif;
+    color: #465eff;
+    font-size: 1.37rem;
+}
+
+.investimento p {
+    font-family: "Inter", sans-serif;
+    color: #767a86;
+}
+
+.investimento button {
+    background-color: #465eff;
+    color: #fcfc30;
+    border: none;
+    padding: 1rem;
+    position: relative;
+    font-weight: 800;
+    top: 1rem;
+    border-radius: 5px;
+}
+
+.lojabb {
+    background: #ffffff;
+    position: relative;
+    border-radius: 5px;
+    width: 167%;
+    left: 48.3rem;
+    height: 119%;
+    bottom: 19.5rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.lojabb h1 {
+    font-family: "Inter", sans-serif;
+    color: #465eff;
+    font-size: 1.37rem;
+}
+
+.lojabb p {
+    font-family: "Inter", sans-serif;
+    color: #767a86;
+}
+
+.lojabb button {
+    background-color: #465eff;
+    color: #fcfc30;
+    border: none;
+    padding: 1rem;
+    position: relative;
+    font-weight: 800;
+    top: 1rem;
+    border-radius: 5px;
+}
+
+.image-wrap-5 span {
+    background: #fff;
+    height: 99%;
+}
+
+.wrap-wrap-momentos {
+    background-color: #f4f4f6;
+}
+
+.conta-corrente h1 {
+    font-family: "Inter", sans-serif;
+    color: #fcfc30;
+    font-weight: 800;
+    position: relative;
+    bottom: 1rem;
+}
+
+.conta-corrente p {
+    font-family: "Inter", sans-serif;
+    color: #fff;
+}
+
+.conta-corrente button {
+    background-color: #fcfc30;
+    color: #465eff;
+    border: none;
+    padding: 1rem;
+    position: relative;
+    font-weight: 800;
+    top: 1rem;
+    border-radius: 5px;
+}
+
+.box-- {
+    padding: 1rem;
+}
+
+.not_client {
+    background-color: #4466EE;
+    height: 9%;
+    display: flex;
+    align-items: center;
+}
+
+.not_client .titulo {
+    width: 100%;
+    text-align: -webkit-center;
+    color: #fcfc30;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.not_client .buttonb {
+    background-color: #fdf429;
+    border: none;
+    border-radius: 5px;
+    color: #4466EE;
+    width: 20%;
+    height: 74%;
+    font-size: 19px;
+    font-weight: 800;
+    margin-left: 2rem;
+}
+
+.buttonb:hover {
+    cursor: pointer;
+    background-color: #e0d721;
+}
